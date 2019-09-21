@@ -1,0 +1,29 @@
+button {
+  border: none;
+  width: auto;
+  overflow: visible;
+  background: transparent;
+  font: inherit;
+  line-height: normal;
+  text-align: inherit;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  border-radius: 50px;
+  padding: 12px 30px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #DCDBDB;
+  color: grey;
+}
+
+.btn-large {
+  background-color: #DCDBDB;
+  color: grey;
+  width: 100%;
+}
+
+.btn-black {
+  background-color: red;
+  color: white;
+}
