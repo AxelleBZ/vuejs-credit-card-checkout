@@ -1,21 +1,16 @@
 <template>
-  <button :class="className" type="button" v-on:click="btnClick">{{ msg }}</button>
+  <button :class="className" :type="buttonType">{{ msg }}</button>
 </template>
 
 <script>
-export default {
-  name: 'Button',
-  props: {
-    msg: String,
-    className: String
-  },
-  // define methods under the `methods` object
-  methods: {
-    btnClick: function (event) {
-      alert('Hello !');
+  export default {
+    name: 'Button',
+    props: {
+      msg: String,
+      className: String,
+      buttonType: String
     }
   }
-}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
